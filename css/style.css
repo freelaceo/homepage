@@ -1,0 +1,35 @@
+#buscador input{width:100%;display:block;padding:15px;border:1px solid #666;font-size:15px;line-height:normal;border-radius:3px;transition:all .3s ease;box-sizing:border-box;}
+#buscador input:focus{box-shadow:0 0 5px 2px rgba(0,0,0,.2);}
+
+.main-header{position:fixed;left:0;top:0;width:100%;background:#fff;padding:15px 0;z-index:99;border-bottom:1px solid #ddd}
+.main-header nav ul{text-align:right;}
+.main-header nav ul li{display:inline-block;vertical-align:middle;margin-right:30px;font-size:16px;position:relative;}
+.main-header nav ul li:last-of-type{margin-right: 0}
+.main-header nav ul li a{text-decoration:none;color:#4A4A4A;}
+.main-header nav ul li .user-img{position:relative;overflow:hidden;border-radius:100%;width:60px;height:60px;}
+.main-header nav ul li .user-img figure{position:absolute;left:-50%;bottom:-50%;right:-50%;top:-50%;margin:auto;max-width:100%;height:100%;}
+.main-header nav ul li .submenu{position: absolute;right: 0;min-width: 300px;padding: 15px;border: 1px solid #ddd;margin-top: 15px;background: #fff;display:none;}
+
+.incoming-hackathon{border:1px solid #aaa;}
+.incoming-hackathon hr{border:none;border-bottom:1px solid #aaa;margin:30px 0;}
+.incoming-hackathon h2{font-size: 18px;font-weight:600;color:#666;margin-bottom:10px}
+.incoming-hackathon h3{font-size: 30px;font-weight:600;color:#333;}
+.incoming-hackathon .btn{margin-top:15px;}
+.hackathon-details{margin:-10px;}
+.hackathon-details li{padding:10px;box-sizing:border-box;}
+.hackathon-details li mark{display:block;}
+
+.event-categories{text-align:center;}
+.event-categories li{display:inline-block;margin:0 30px;font-size:16px;}
+.event-categories li a{color:#333;text-decoration:none;opacity:.5;transition:all .3s ease;}
+.event-categories li.active a{font-weight:600;opacity:1;}
+.event-categories li:hover a{opacity:1}
+.events{margin:-15px;}
+.events li{padding:15px;}
+.events figure{margin-bottom:15px}
+.events li h3{font-size:16px;font-weight:600;color:#333;margin-bottom:10px;}
+.events li .joined{margin-top:10px}
+.events li .joined mark{color:#FF4343;}
+
+.tab .tab-panel{display:none;}
+.tab .tab-panel.active{display:block;}
